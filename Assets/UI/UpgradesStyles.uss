@@ -1,0 +1,97 @@
+.upgrade-label {
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    -unity-font: url('project://database/Assets/TextMesh%20Pro/Fonts/LiberationSans.ttf?fileID=12800000&guid=e3265ab4bf004d28a9537516768c1c75&type=3#LiberationSans');
+    -unity-font-style: bold;
+}
+
+.buttons-element {
+    width: 80%;
+    height: 60%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.upgrades-main-button {
+    width: 13%;
+    height: 100%;
+    background-color: rgb(247, 255, 0);
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-left-color: rgb(0, 0, 0);
+    border-right-color: rgb(0, 0, 0);
+    border-top-color: rgb(0, 0, 0);
+    border-bottom-color: rgb(0, 0, 0);
+    border-left-width: 12px;
+    border-right-width: 12px;
+    border-top-width: 12px;
+    border-bottom-width: 12px;
+}
+
+.upgrades-main-button:hover {
+    transition-duration: 0.2s;
+    scale: 1.1 1.1;
+}
+
+.upgrades-main-button:active {
+    background-color: rgba(247, 255, 0, 0.86);
+    transition-duration: 0.1s;
+    scale: 1.2 1.2;
+}
+
+.back-button {
+    background-color: rgb(248, 249, 215);
+    width: 150px;
+    height: 150px;
+    border-left-color: rgb(0, 0, 0);
+    border-right-color: rgb(0, 0, 0);
+    border-top-color: rgb(0, 0, 0);
+    border-bottom-color: rgb(0, 0, 0);
+    border-left-width: 12px;
+    border-right-width: 12px;
+    border-top-width: 12px;
+    border-bottom-width: 12px;
+    border-top-left-radius: 80px;
+    border-bottom-left-radius: 80px;
+    border-top-right-radius: 80px;
+    border-bottom-right-radius: 80px;
+    background-image: url('project://database/Assets/Sprites/3916837.png?fileID=2800000&guid=00260a6e7b5e49c4cade82712dd5ce88&type=3#3916837');
+    right: 44px;
+    bottom: 44px;
+}
+
+.back-button:hover {
+    background-color: rgb(232, 233, 197);
+}
+
+.back-button:active {
+    transition-duration: 0.1s;
+    scale: 1.1 1.1;
+    background-color: rgba(248, 249, 215, 255);
+}
+
+.upgrade-level {
+    flex-grow: 0;
+    width: 13%;
+    height: 30%;
+    background-color: rgb(247, 255, 0);
+    border-left-width: 12px;
+    border-right-width: 12px;
+    border-top-width: 12px;
+    border-bottom-width: 12px;
+    border-left-color: rgb(0, 0, 0);
+    border-right-color: rgb(0, 0, 0);
+    border-top-color: rgb(0, 0, 0);
+    border-bottom-color: rgb(0, 0, 0);
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-left: 0;
+    margin-right: 40px;
+    margin-top: 5px;
+}

@@ -1,0 +1,19 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/UpgradesMainMenuStyles.uss?fileID=7433441132597879392&amp;guid=6d9832d9d692f264383b2f09da3774a3&amp;type=3#UpgradesMainMenuStyles" />
+    <ui:VisualElement name="Upgrades" style="flex-grow: 1;">
+        <ui:VisualElement name="AddSection" style="justify-content: flex-start; align-items: flex-start; width: 100%; height: 10%; padding-left: 1%; padding-top: 1%;">
+            <ui:Button text="Back" display-tooltip-when-elided="true" name="BackButton" class="back-button" />
+        </ui:VisualElement>
+        <ui:VisualElement name="MainSection" style="flex-grow: 1; flex-direction: row; flex-wrap: wrap;">
+            <ui:VisualElement style="width: 33%; height: 100%; flex-direction: column; flex-wrap: nowrap; align-items: center; justify-content: center; flex-grow: 1;">
+                <ui:Button text="Plane&#10;Design" display-tooltip-when-elided="true" name="PlaneDesignButton" class="upgrade-button upgrades-main-button" />
+            </ui:VisualElement>
+            <ui:VisualElement style="width: 33%; height: 100%; flex-direction: column; flex-wrap: nowrap; align-items: center; justify-content: center; flex-grow: 1;">
+                <ui:Button text="Plane&#10;Characteristics" display-tooltip-when-elided="true" name="PlaneCharacteristicsButton" class="upgrade-button upgrades-main-button" />
+            </ui:VisualElement>
+            <ui:VisualElement style="width: 33%; height: 100%; flex-direction: column; flex-wrap: nowrap; align-items: center; justify-content: center; flex-grow: 1;">
+                <ui:Button text="Rockets&#10;Characteristics" display-tooltip-when-elided="true" name="RocketsCharacteristicsButton" class="upgrade-button upgrades-main-button" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

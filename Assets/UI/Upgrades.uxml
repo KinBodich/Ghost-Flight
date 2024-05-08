@@ -1,0 +1,34 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/UpgradesStyles.uss?fileID=7433441132597879392&amp;guid=9932576555b9f504d9b30bb2d869228e&amp;type=3#UpgradesStyles" />
+    <ui:VisualElement name="Upgrades" style="flex-grow: 1;">
+        <ui:VisualElement name="AddSection" style="justify-content: flex-start; align-items: flex-start; width: 100%; height: 10%; padding-left: 1%; padding-top: 1%;">
+            <ui:Button text="Back" display-tooltip-when-elided="true" name="BackButton" style="width: 7%; height: 60%; font-size: 20px; -unity-font: url(&apos;project://database/Assets/TextMesh%20Pro/Fonts/LiberationSans.ttf?fileID=12800000&amp;guid=e3265ab4bf004d28a9537516768c1c75&amp;type=3#LiberationSans&apos;); -unity-font-style: bold; color: rgb(255, 255, 255); border-top-left-radius: 10px; border-bottom-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; background-color: rgba(148, 148, 255, 0.64); border-left-color: rgba(255, 255, 255, 0); border-right-color: rgba(255, 255, 255, 0); border-top-color: rgba(255, 255, 255, 0); border-bottom-color: rgba(255, 255, 255, 0);" />
+        </ui:VisualElement>
+        <ui:VisualElement name="MainSection" style="flex-grow: 1; flex-direction: row; flex-wrap: wrap;">
+            <ui:VisualElement style="width: 33%; height: 50%; flex-direction: column; flex-wrap: nowrap; align-items: center; justify-content: center; padding-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0;">
+                <ui:Label text="Max Speed:" display-tooltip-when-elided="true" name="MaxSpeedLabel" class="upgrade-label" style="top: -10%;" />
+                <ui:Button text="Upgrade" display-tooltip-when-elided="true" name="MaxSpeedButton" class="upgrade-button" style="top: 0;" />
+            </ui:VisualElement>
+            <ui:VisualElement style="width: 33%; height: 50%; flex-direction: column; flex-wrap: nowrap; align-items: center; justify-content: center; padding-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0;">
+                <ui:Label text="Engine Power:" display-tooltip-when-elided="true" name="EnginePowerLabel" class="upgrade-label" style="top: -10%;" />
+                <ui:Button text="Upgrade" display-tooltip-when-elided="true" name="EnginePowerButton" class="upgrade-button" style="top: 0;" />
+            </ui:VisualElement>
+            <ui:VisualElement style="width: 33%; height: 50%; flex-direction: column; flex-wrap: nowrap; align-items: center; justify-content: center; padding-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0;">
+                <ui:Label text="Brakes Power:" display-tooltip-when-elided="true" name="BrakesPowerLabel" class="upgrade-label" style="top: -10%;" />
+                <ui:Button text="Upgrade" display-tooltip-when-elided="true" name="BrakesPowerButton" class="upgrade-button" style="top: 0;" />
+            </ui:VisualElement>
+            <ui:VisualElement style="width: 33%; height: 50%; align-items: center; justify-content: center;">
+                <ui:Label text="Elerons:" display-tooltip-when-elided="true" name="EleronsLabel" class="upgrade-label" style="top: -20%;" />
+                <ui:Button text="Upgrade" display-tooltip-when-elided="true" name="EleronsButton" class="upgrade-button" style="top: -10%;" />
+            </ui:VisualElement>
+            <ui:VisualElement style="width: 33%; height: 50%; align-items: center; justify-content: center;">
+                <ui:Label text="Reload Speed:" display-tooltip-when-elided="true" name="ReloadSpeedLabel" class="upgrade-label" style="top: -20%;" />
+                <ui:Button text="Upgrade" display-tooltip-when-elided="true" name="ReloadSpeedButton" class="upgrade-button" style="top: -10%;" />
+            </ui:VisualElement>
+            <ui:VisualElement style="width: 33%; height: 50%; align-items: center; justify-content: center;">
+                <ui:Label text="Rockets:" display-tooltip-when-elided="true" name="RocketsLabel" class="upgrade-label" style="top: -20%;" />
+                <ui:Button text="Upgrade" display-tooltip-when-elided="true" name="RocketsButton" class="upgrade-button" style="top: -10%;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

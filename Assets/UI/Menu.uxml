@@ -1,0 +1,18 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/MenuStyles.uss?fileID=7433441132597879392&amp;guid=9455385565bc0664a96077de8b7aa485&amp;type=3#MenuStyles" />
+    <ui:VisualElement name="Menu" style="height: 100%; width: 100%; flex-grow: 1; flex-direction: row-reverse;">
+        <ui:VisualElement name="MainSection" style="background-color: rgba(0, 0, 0, 0.35); width: 40%; height: 100%; margin-left: 0; align-items: center; left: auto; top: auto; justify-content: flex-start; margin-right: 5%;">
+            <ui:VisualElement name="Logo" style="-unity-text-align: upper-left; align-items: center; justify-content: flex-end; flex-grow: 1; width: 90%; height: 30%;">
+                <ui:Label text="Ghost Flight" display-tooltip-when-elided="true" style="-unity-text-align: upper-center; font-size: 80%; -unity-font: url(&apos;project://database/Assets/TextMesh%20Pro/Fonts/LiberationSans.ttf?fileID=12800000&amp;guid=e3265ab4bf004d28a9537516768c1c75&amp;type=3#LiberationSans&apos;); -unity-font-style: bold; color: rgb(255, 255, 255);" />
+            </ui:VisualElement>
+            <ui:VisualElement name="Buttons" style="padding-top: 0; justify-content: center; align-items: center; flex-grow: 1; flex-direction: column; padding-bottom: 0; flex-wrap: nowrap; width: 70%; height: 100%; flex-shrink: 1; margin-bottom: 25%;">
+                <ui:Button text="Play" display-tooltip-when-elided="true" name="PlayButton" class="menu-button" style="width: 100%; height: 20%; align-items: center;" />
+                <ui:Button text="Upgrades" display-tooltip-when-elided="true" name="UpgradesButton" class="menu-button" style="width: 100%; top: 60px; height: 20%;" />
+                <ui:Button text="Settings" display-tooltip-when-elided="true" name="SettingsButton" class="menu-button" style="width: 100%; top: 120px; height: 20%;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="Other" style="flex-grow: 1; flex-direction: row; flex-wrap: nowrap; position: relative; top: auto; left: auto; align-items: flex-start; width: 40%; height: 100%;">
+            <ui:Button text="Exit" display-tooltip-when-elided="true" name="ExitButton" class="menu-button" style="align-items: flex-start; width: auto; justify-content: flex-end; margin-left: 2%; margin-right: 1%; margin-top: 2%; margin-bottom: 1%; height: auto;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

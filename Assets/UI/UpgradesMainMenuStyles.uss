@@ -1,0 +1,68 @@
+.upgrades-main-button {
+    width: 60%;
+    height: 60%;
+    font-size: 300%;
+    color: rgba(255, 255, 255, 255);
+    -unity-font: url('project://database/Assets/UI%20Toolkit/UnityThemes/UnityDefaultRuntimeTheme.tss?fileID=2230732570650464555&guid=d8e3be03e76d51841b9831bc3fb475bf&type=3#NotInter-Regular');
+    -unity-text-align: middle-center;
+    -unity-font-style: bold;
+    background-color: rgba(0, 0, 0, 0.39);
+    top: -50px;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    border-left-color: rgba(255, 255, 255, 255);
+    border-right-color: rgba(255, 255, 255, 255);
+    border-top-color: rgba(255, 255, 255, 255);
+    border-bottom-color: rgba(255, 255, 255, 255);
+    border-left-width: 3px;
+    border-right-width: 3px;
+    border-top-width: 3px;
+    border-bottom-width: 3px;
+}
+
+.upgrades-main-button:hover {
+    transition-duration: 0.2s;
+    scale: 1.1 1.1;
+    background-color: rgba(0, 0, 0, 0.78);
+}
+
+.upgrades-main-button:active {
+    background-color: rgba(0, 0, 0, 0.86);
+    transition-duration: 0.1s;
+    scale: 1.2 1.2;
+}
+
+.back-button {
+    background-color: rgba(255, 255, 255, 0.78);
+    font-size: 29px;
+    width: 7%;
+    height: 60%;
+    color: rgba(0, 0, 0, 255);
+    -unity-font-style: bold;
+    -unity-font: url('project://database/Assets/UI%20Toolkit/UnityThemes/UnityDefaultRuntimeTheme.tss?fileID=2230732570650464555&guid=d8e3be03e76d51841b9831bc3fb475bf&type=3#NotInter-Regular');
+    border-left-color: rgba(0, 0, 0, 255);
+    border-right-color: rgba(0, 0, 0, 255);
+    border-top-color: rgba(0, 0, 0, 255);
+    border-bottom-color: rgba(0, 0, 0, 255);
+    border-left-width: 3px;
+    border-right-width: 3px;
+    border-top-width: 3px;
+    border-bottom-width: 3px;
+    border-top-left-radius: 27px;
+    border-bottom-left-radius: 27px;
+    border-top-right-radius: 27px;
+    border-bottom-right-radius: 27px;
+    -unity-text-align: middle-center;
+}
+
+.back-button:hover {
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+.back-button:active {
+    -unity-background-image-tint-color: rgba(255, 255, 255, 0.9);
+    transition-duration: 0.1s;
+    scale: 1.1 1.1;
+}

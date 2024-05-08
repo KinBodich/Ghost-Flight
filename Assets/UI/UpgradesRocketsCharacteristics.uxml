@@ -1,0 +1,38 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/UpgradesStyles.uss?fileID=7433441132597879392&amp;guid=9932576555b9f504d9b30bb2d869228e&amp;type=3#UpgradesStyles" />
+    <ui:VisualElement name="Upgrades" style="flex-grow: 1;">
+        <ui:VisualElement name="AddSection" style="justify-content: flex-start; align-items: flex-start; width: 100%; height: 10%; padding-left: 1%; padding-top: 1%;">
+            <ui:Button text="Back" display-tooltip-when-elided="true" name="BackButton" class="back-button" />
+        </ui:VisualElement>
+        <ui:VisualElement name="MainSection" style="flex-grow: 1; flex-direction: row; flex-wrap: wrap;">
+            <ui:VisualElement name="MaxSpeed" style="width: 50%; height: 50%; align-items: center; justify-content: center;">
+                <ui:Label text="Launch Delay:" display-tooltip-when-elided="true" name="LaunchDelayLabel" class="upgrade-label" style="top: -10%;" />
+                <ui:VisualElement class="buttons-element">
+                    <ui:Button text="Upgrade" display-tooltip-when-elided="true" name="LaunchDelayButtonUpgrade" class="upgrade-button upgrades-main-button" style="top: 0;" />
+                    <ui:Button text="Downgrade" display-tooltip-when-elided="true" name="LaunchDelayButtonDowngrade" class="upgrade-button upgrades-main-button" style="top: 0;" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement name="EnginePower" style="width: 50%; height: 50%; flex-direction: column; flex-wrap: nowrap; align-items: center; justify-content: center; padding-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0;">
+                <ui:Label text="Rockets Amount:" display-tooltip-when-elided="true" name="RocketsAmountLabel" class="upgrade-label" style="top: -10%;" />
+                <ui:VisualElement class="buttons-element">
+                    <ui:Button text="Upgrade" display-tooltip-when-elided="true" name="RocketsAmountButtonUpgrade" class="upgrades-main-button" style="top: 0;" />
+                    <ui:Button text="Downgrade" display-tooltip-when-elided="true" name="RocketsAmountButtonDowngrade" class="upgrades-main-button" style="top: 0;" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement name="BreakesPower" style="width: 50%; height: 50%; align-items: center; justify-content: center;">
+                <ui:Label text="Rocket Speed:" display-tooltip-when-elided="true" name="RocketSpeedLabel" class="upgrade-label" style="top: -10%;" />
+                <ui:VisualElement class="buttons-element">
+                    <ui:Button text="Upgrade" display-tooltip-when-elided="true" name="RocketSpeedButtonUpgrade" class="upgrade-button upgrades-main-button" style="top: 0;" />
+                    <ui:Button text="Downgrade" display-tooltip-when-elided="true" name="RocketSpeedButtonDowngrade" class="upgrade-button upgrades-main-button" style="top: 0;" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement name="EleronsPower" style="width: 50%; height: 50%; align-items: center; justify-content: center;">
+                <ui:Label text="Reload Time:" display-tooltip-when-elided="true" name="ReloadTimeLabel" class="upgrade-label" style="top: -10%;" />
+                <ui:VisualElement class="buttons-element">
+                    <ui:Button text="Upgrade" display-tooltip-when-elided="true" name="ReloadTimeButtonUpgrade" class="upgrade-button upgrades-main-button" style="top: 0;" />
+                    <ui:Button text="Downgrade" display-tooltip-when-elided="true" name="ReloadTimeButtonDowngrade" class="upgrade-button upgrades-main-button" style="top: 0;" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
